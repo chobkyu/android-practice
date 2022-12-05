@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center">
 
-    <TextView
+   <!-- <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="fuck"
@@ -24,6 +24,25 @@
         android:layout_height="wrap_content"
         android:text="nananananananan"
         android:textStyle="bold"
+        />-->
+
+    <Button
+        android:id="@+id/visibleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="visible"
         />
 
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        />
+
+    <Button
+        android:id="@+id/invisibleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="invisible"/>
 </LinearLayout>
