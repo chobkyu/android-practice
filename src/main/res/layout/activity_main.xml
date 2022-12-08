@@ -26,15 +26,11 @@
         android:textStyle="bold"
         />-->
 
-    <TextView
+    <Button
         android:id="@+id/visibleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sesac_contact"
-        android:autoLink="web|email|phone"
-        android:textColor="#FF0000"
-        android:textSize="20sp"
-        android:textStyle="bold"
+        android:text="visible"
         />
 
     <ImageView
@@ -44,12 +40,9 @@
         android:src="@drawable/ic_launcher_background"
         />
 
-    <TextView
+    <Button
         android:id="@+id/invisibleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sesac_info"
-        android:maxLines="3"
-        android:ellipsize="end"
-        />
+        android:text="invisible"/>
 </LinearLayout>
