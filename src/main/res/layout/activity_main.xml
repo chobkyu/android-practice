@@ -26,23 +26,23 @@
         android:textStyle="bold"
         />-->
 
-    <Button
-        android:id="@+id/visibleButton"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="visible"
-        />
+        android:src="@drawable/dsfsdafsdfasdfasdfasdfsdafasdfsdadfsafsdafsadf"
+        android:background="@android:color/holo_red_light"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello world"/>
 
     <ImageView
-        android:id="@+id/logoImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"
-        />
-
-    <Button
-        android:id="@+id/invisibleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="invisible"/>
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/dsfsdafsdfasdfasdfasdfsdafasdfsdadfsafsdafsadf"
+        android:scaleType="centerInside"/>
 </LinearLayout>
