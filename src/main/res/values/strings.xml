@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidLab</string>
+    <string name="sesac_contact">
+        네이버 : https://naver.com 전번 : 010-1234-5678 이메일 : fjgh@naver.com
+    </string>
+    <string name ="sesac_info">
+        sdfsdafasdfsdafdasfadsfadsfsdafdasfsdafasdfsdfasdfasdfsdfdsfsdfsdfsdfsdfsdafasdfdsfdsfsadfsdfdasfsadfsdfsdafsadfdsf
+    </string>
 </resources>
