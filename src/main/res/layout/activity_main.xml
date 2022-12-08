@@ -8,41 +8,37 @@
     android:orientation="vertical"
     android:gravity="center">
 
-   <!-- <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="fuck"
-        android:textStyle="bold"
-         />
+        android:text="Button1"/>
 
-    <ImageView
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="nananananananan"
-        android:textStyle="bold"
-        />-->
+        android:text="check1"/>
 
-    <ImageView
+    <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/dsfsdafsdfasdfasdfasdfsdafasdfsdadfsafsdafsadf"
-        android:background="@android:color/holo_red_light"
-        android:maxWidth="100dp"
-        android:maxHeight="100dp"
-        android:adjustViewBounds="true"/>
+        android:text="check2"/>
 
-    <TextView
+    <RadioGroup
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hello world"/>
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="radio2"/>
+    </RadioGroup>
 
-    <ImageView
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/dsfsdafsdfasdfasdfasdfsdafasdfsdadfsafsdafsadf"
-        android:scaleType="centerInside"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone number"
+        android:inputType="phone"/>
 </LinearLayout>
